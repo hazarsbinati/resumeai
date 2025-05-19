@@ -50,7 +50,7 @@ def write_docx(sections, output_file):
     doc.save(output_file)
 
 if __name__ == "__main__":
-    directory = "/Users/hazarsbinati/icloud drive/resume"  # Change as needed
+    directory = "/Users/hazarsbinati/Library/Mobile Documents/com~apple~CloudDocs/Resume"  # Change as needed
     output_file = "final_resume.docx"
     all_sections = {}
     for file in get_docx_files(directory):
